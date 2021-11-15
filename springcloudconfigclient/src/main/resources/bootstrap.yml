@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: myvalue
+  profiles:
+    active:
+    - dev
+    - test
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8888
